@@ -50,7 +50,7 @@ app.use('/api-informations/reservations', reservations);
 app.use('/api-informations/comments', comments);
 app.use('/api-informations/tags', tags);
 
-const PORT=process.env.PORT || 1234;
+const PORT=process.env.PORT || 5000;
 
 const server = app.listen(
     PORT, 
